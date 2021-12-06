@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.TextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="436.0" layoutY="-33.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Users/21263/Downloads/Black%20and%20Orange%20Barbell%20Sports%20Logo%20(1).png" />
+         </image>
+      </ImageView>
+      <Line endX="-100.0" endY="279.20001220703125" layoutX="400.0" layoutY="51.0" startX="-100.0" startY="28.20001983642578" />
+      <VBox layoutX="58.0" layoutY="26.0" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox prefHeight="100.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+               <children>
+                  <VBox prefHeight="200.0" prefWidth="100.0" HBox.hgrow="ALWAYS">
+                     <children>
+                        <TextField floatText="Entrez votre nom et prénom  ">
+                           <VBox.margin>
+                              <Insets bottom="20.0" left="20.0" right="20.0" top="90.0" />
+                           </VBox.margin>
+                        </TextField>
+                        <TextField floatText="Entrez votre date de naissance" layoutX="10.0" layoutY="10.0">
+                           <VBox.margin>
+                              <Insets bottom="20.0" left="20.0" right="20.0" top="10.0" />
+                           </VBox.margin>
+                        </TextField>
+                        <TextField floatText="Entrez votre téléphone  :  " layoutX="10.0" layoutY="36.0">
+                           <VBox.margin>
+                              <Insets bottom="20.0" left="20.0" right="20.0" top="10.0" />
+                           </VBox.margin>
+                        </TextField>
+                        <TextField floatText="Entrez votre sexe :  " layoutX="30.0" layoutY="251.0">
+                           <VBox.margin>
+                              <Insets bottom="20.0" left="20.0" right="20.0" top="10.0" />
+                           </VBox.margin>
+                        </TextField>
+                     </children>
+                  </VBox>
+                  <VBox layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0" HBox.hgrow="ALWAYS">
+                     <children>
+                        <TextField floatText="Entrez votre email" layoutX="10.0" layoutY="10.0">
+                           <VBox.margin>
+                              <Insets bottom="20.0" left="20.0" right="20.0" top="90.0" />
+                           </VBox.margin>
+                        </TextField>
+                        <TextField floatText="Entrez votre mot de passe">
+                           <VBox.margin>
+                              <Insets bottom="20.0" left="20.0" right="20.0" top="10.0" />
+                           </VBox.margin>
+                        </TextField>
+                        <TextField floatText="Confirmez votre mot de passe" layoutX="10.0" layoutY="36.0">
+                           <VBox.margin>
+                              <Insets bottom="20.0" left="20.0" right="20.0" top="10.0" />
+                           </VBox.margin>
+                        </TextField>
+                        <TextField floatText="Vous êtes coach ou client?" layoutX="30.0" layoutY="251.0">
+                           <VBox.margin>
+                              <Insets bottom="20.0" left="20.0" right="20.0" top="10.0" />
+                           </VBox.margin>
+                        </TextField>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <RadioButton alignment="TOP_LEFT" contentDisplay="RIGHT" mnemonicParsing="false" text="J'ai lu et j'accepte les termes et conditions" HBox.hgrow="ALWAYS">
+                     <padding>
+                        <Insets bottom="20.0" left="2.0" right="90.0" top="20.0" />
+                     </padding>
+                  </RadioButton>
+                  <Button alignment="CENTER" contentDisplay="RIGHT" mnemonicParsing="false" prefHeight="30.0" prefWidth="200.0" text="Inscription" textAlignment="RIGHT" HBox.hgrow="ALWAYS">
+                     <HBox.margin>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

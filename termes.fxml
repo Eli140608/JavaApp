@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="295.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@6375160.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="356.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TERMES &amp; CONDITIONS">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="312.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Article 1 : ObjetLes présentes CGU ou Conditions Générales d’Utilisation encadrent juridiquement l’utilisation des services du site lapetiteperle (ci-après dénommé « le site »).Constituant le contrat entre la société La Petite Perle, l’Utilisateur, l’accès au site doit être précédé de l’acceptation de ces CGU. L’accès à cette plateforme signifie l’acceptation des présentes CGU.Article 2 : Collecte des donnéesPour la création du compte de l’Utilisateur, la collecte des informations au moment de l’inscription sur le site est nécessaire et obligatoire. Conformément à la loi n°78-17 du 6 janvier relative à l’informatique, aux fichiers et aux libertés, la collecte et le traitement d’informations personnelles s’effectuent dans le respect de la vie privée.Suivant la loi Informatique et Libertés en date du 6 janvier 1978, articles 39 et 40, l’Utilisateur dispose du droit d’accéder, de rectifier, de supprimer et d’opposer ses données personnelles. L’exercice de ce droit s’effectue par :Le formulaire de contact ;Son espace client." wrappingWidth="273.98313331604004">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
